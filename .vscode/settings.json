@@ -1,3 +1,4 @@
 {
-    "editor.cursorBlinking": "phase"
+    "editor.cursorBlinking": "phase",
+    "files.autoSave": "afterDelay"
 }
