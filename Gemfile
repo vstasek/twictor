@@ -14,7 +14,7 @@ gem 'coffee-script-source', '1.8.0'
 
 group :development, :test do
   gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
-  gem 'byebug',  '9.0.6', platform: :mri
+  gem 'byebug',  '9.0.6', platform: [:mri, :mingw, :x64_mingw]
   gem 'win32console'
 end
 
