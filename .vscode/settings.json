@@ -1,4 +1,10 @@
 {
     "editor.cursorBlinking": "phase",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+
+    "[ruby]": {
+        "editor.formatOnSave": true
+    },
+    "ruby.format": "rubocop",
+    "editor.formatOnSaveTimeout": 1500
 }
