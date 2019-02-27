@@ -1,11 +1,11 @@
 joe:
-  id: 1
+  #id: 1
   name: Joe Example
   email: joe@example.com
   password_digest: <%= User.digest('password') %>
 
 victor:
-  id: 2
+  #id: 2
   name: Victor Example
   email: victor@example.com
   password_digest: <%= User.digest('password') %>
