@@ -44,7 +44,7 @@ class User < ApplicationRecord
 
   private
     def downcase_email
-      { email.downcase! } # = before_save { self.email = email.downcase }
+      email.downcase! # equivalent to self.email = email.downcase
     end
 
     # Creates and assigns the activation token and digest
